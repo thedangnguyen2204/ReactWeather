@@ -10,7 +10,10 @@ var React = require ('react');
 
 var About = () => {
   return (
-    <h3>About component</h3>
+    <div>
+      <h3>About component</h3>
+      <p>This is an app to get Weather</p>
+    </div>
   );
 }
 module.exports = About;
